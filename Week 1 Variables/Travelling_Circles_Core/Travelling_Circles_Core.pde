@@ -44,30 +44,30 @@ void setup() {
 void draw() {
   //Clear background
   background(255);
-  
+
   //Update positions for all circles
   x1 = x1 + xSpeed1;
   y1 = y1 + ySpeed1;
-  
+
   x2 = x2 + xSpeed2;
   y2 = y2 + ySpeed2;
-  
+
   x3 = x3 + xSpeed3;
   y3 = y3 + ySpeed3;
-  
+
   x4 = x4 + xSpeed4;
   y4 = y4 + ySpeed4;
-  
+
   //Draw Circles at updated coordinates
   fill(circle1Color);
   ellipse(x1, y1, 60, 60); //Red Circle
-  
+
   fill(circle2Color);
   ellipse(x2, y2, 60, 60); //Green Circle
-  
+
   fill(circle3Color);
   ellipse(x3, y3, 60, 60); //Blue Circle
-  
+
   fill(circle4Color);
   ellipse(x4, y4, 60, 60); //Yellow Circle
 }
